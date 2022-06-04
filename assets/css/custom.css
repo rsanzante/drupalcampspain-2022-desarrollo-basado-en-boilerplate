@@ -1,0 +1,369 @@
+.reveal section .alt-color {
+  color: #e22b4b;
+}
+
+.reveal section .alt-color2 {
+  color: #08547a;
+}
+
+
+
+.reveal section .small {
+  font-size: 0.8em;
+}
+.reveal section .xsmall {
+  font-size: 0.6em;
+}
+
+.reveal section .xxsmall {
+  font-size: 0.4em;
+}
+
+.reveal section .header {
+  font-size: 1.4em;
+}
+
+
+.index .reveal section .header {
+/*   float:right; */
+}
+
+section.section-cover .header {
+  float:right;
+}
+
+
+.dark-background .reveal section .header  {
+  color: #fff;
+}
+
+
+.fit-bg .slide-background-content {
+  background-size: contain;
+}
+
+
+.reveal section .spacer {
+  height: 100px;
+}
+
+.reveal section .spacer-small {
+  height: 80px;
+}
+
+.reveal section .session-title {
+  font-size: 1.1em;
+}
+
+
+.reveal section .banda {
+  background: url('../images/banda_verde.png') repeat-y  transparent ;
+  background-position: center;
+  margin-bottom: 0.5em;
+}
+
+.reveal section .banda.sep.small {
+  width: 40%;
+  float: right;
+}
+
+.sponsor {
+  z-index: 10;
+  color: #000;
+  width: 90%;
+  padding: 0px 20px;
+  text-transform: uppercase;
+}
+
+.dark-background .sponsor {
+  color: #fff;
+}
+
+.sponsor.up {
+  position: absolute;
+  top: 0;
+  left: -0;
+}
+
+.sponsor.down {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.sponsor .left {
+  float: left;
+}
+
+.sponsor .right {
+  float: right;
+}
+
+.sponsor span {
+  height: 40px;
+  font-size: 1.2em;
+  display: block;
+  font-weight: bold;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  margin-right: 2em;
+  opacity: 80%
+}
+
+
+/*.reveal section img.logo {
+  border: 0;
+  box-shadow: 0 0;
+}*/
+
+.reveal section .logo-aed {
+  max-width: 200px;
+  margin: 20px;
+}
+
+.reveal section img.metadrop-logo {
+  max-width: 200px;
+}
+
+
+
+.reveal section img.profile-photo {
+  max-width: 120px;
+  border-radius: 50%;
+  border: 7px solid #8bcc98;
+}
+
+.sider {
+  position: absolute;
+  right: 1%;
+  top: 25%;
+  float: right;
+/*   width: 15%; */
+}
+
+.inline-code {
+  font-family: monospace;
+}
+
+li {
+    background: url('../images/bullet.png') no-repeat 0px 13px transparent;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 0px 0px 38px;
+    vertical-align: middle;
+}
+
+
+.out {
+  position:absolute;
+}
+
+.logo {
+  width: 2em;
+  vertical-align: middle;
+}
+
+.logo.config {
+  width: 1em;
+  margin-left: -0.5em;
+  margin-bottom: -0.1em;
+  margin-right: 0.3em;
+}
+
+.logo.wider-1 {
+  width: 1.5em;
+}
+
+.logo.wider-2 {
+  width: 2em;
+}
+
+
+.logo.wider-3 {
+  width: 2.5em;
+}
+
+.logo.wider-4 {
+  width: 3em;
+}
+
+.logo.wider-5 {
+  width: 4.5em;
+}
+
+
+.logo.wider-8 {
+  width: 5.5em;
+}
+
+
+.logo.sticky-left {
+  margin-left: -0.75em;
+  margin-bottom: 1em;
+}
+
+
+.sponsor-hidden .sponsor {
+  opacity: 0%;
+/*   transition: all .8s cubic-bezier(.26,.86,.44,.985); */
+}
+
+
+
+.section-cover {
+  opacity: 0.15:
+}
+
+section .sep.banda {
+  width: 100%;
+  height: 10px;
+}
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  margin: 0em 0.5em;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+/* Column that takes double space */
+.double-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 2;
+}
+
+
+.reveal section pre {
+  width: 100%;
+  margin: 20px auto;
+  padding: 0.3em;
+  font-size: 0.65em;
+}
+
+.reveal section code {
+/*   max-height: 580px; */
+}
+
+
+.reveal section img.metadrop-logo {
+  max-width: 220px;
+}
+
+
+
+
+/*
+.reveal section img.dcon2020-logo {
+  max-width: 200px;
+}
+
+.reveal section code span.old {
+  opacity: 0.35 !important;
+}
+
+.reveal section.fframe .header {
+  color: #fff;
+}
+
+.reveal section.fframe {
+  color: #fff;
+}
+
+.reveal section .subheader {
+  font-size: 0.8em;
+}
+
+.reveal section .subsubheader {
+  font-size: 0.7em;
+  margin-top: -0.4em;
+}
+
+.reveal section .author {
+  margin-bottom: 0.2em;
+}
+
+.reveal section .nicks {
+  margin-bottom: 0.2em;
+}
+
+
+
+
+
+
+.reveal section .wrap-ovl {
+    color: #eee;
+    background: rgba(14, 14, 14, 0.5);
+    text-align: center;
+    padding: 1em;
+}
+
+
+a.ddlink {
+  color: #000;
+}
+
+.wrap-ovl a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.reveal section img {
+  border: 1px solid #aaa;
+  box-shadow: 2px 2px 5px #aaa;
+}
+
+
+
+
+
+.sponsor {
+  width: 100%;
+  color: #08547a;
+  background-color: transparent;
+  z-index: 10;
+  transition: all .8s cubic-bezier(.26,.86,.44,.985);
+}
+
+
+
+.sponsor-hidden.first-slide .sponsor {
+  transition: none;
+}
+
+.sponsor img {
+    position: relative;
+    top: 2px;
+    width: 150px;
+    float: left;
+}
+
+
+
+.sponsor a,
+.sponsor a:hover,
+.sponsor a:visited {
+  color: blue;
+  text-decoration: red;
+}
+
+
+
+.bottom {
+  position: relative;
+  bottom: -60px;
+}
+
+
+*/
+colui

@@ -1,0 +1,791 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/white.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+  </head>
+  <body>
+    <div class="sponsor down">
+      <span class="left">Drupal Camp Spain 2022</span>
+      <span class="right">Zaragoza 3-5 Junio</span>
+    </div>
+    <div class="reveal">
+      <div class="slides">
+
+
+        <section data-state="dark-background" data-background-image="assets/images/fondo_zrgz_filtrado.png">
+            <div class="banda sep"></div>
+            <div class="header ">Desarrollo basado en boilerplate</div>
+            <div class="spacer"></div>
+            <img class="logo-aed" src="assets/images/logo_aed.png"/>
+        </section>
+
+
+        <section data-state="sponsor-hidden">
+            <img src="assets/images/sanzante.jpg" class="profile-photo">
+            <p>
+              <span>Ricardo Sanz</span>
+              <br>
+              <span class="xsmall"><em>Drupal Developer &amp; DevOps</em></span>
+              <br>
+              <a class="xsmall" href="https://drupal.org/u/tunic" target="_blank">drupal.org/u/tunic</a>
+              <br>
+              <a class="xsmall" href="https://twitter.com/sanzante" target="_blank">sanzante @ Twitter</a>
+            </p>
+            <div>
+              <img src="assets/images/metadrop-logo.svg" class="metadrop-logo ">
+            </div>
+        </section>
+
+
+        <section data-state="index" data-background-image="assets/images/fondo_zrgz_clareada.png">
+        <div class="banda sep"></div>
+          <div class="header">
+            <span>Índice</span>
+          </div>
+          <ul class="walktrough">
+            <li>Comenzar un proyecto</li>
+            <li>Pon un <em>boilerplate</em> en tu <strike>vida</strike> proyecto</li>
+            <li><em>Boilerplate</em> en detalle</li>
+            <li>Otros usos</li>
+            <li>¿Esto no es como...?</li>
+            <li>¿Demo?</li>
+            <li>Preguntas</li>
+          </ul>
+        </section>
+
+
+
+        <section data-state="sponsor-hidden" class="section-cover">
+          <div class="header">
+            <span>Comenzar con un proyecto</span>
+            <div class="banda sep"></div>
+          </div>
+        </section>
+
+
+
+        <section>
+          <div class="header">
+            <span>Comenzar un proyecto</span>
+          </div>
+          <div>
+            <span class="fragment"><img class="logo wider-5" src="assets/images/logo_drupal.png"></span>
+            <span class="fragment"><img class="logo config" src="assets/images/config.png"></span>
+
+            <span class="fragment"><img class="logo wider-2" src="assets/images/folder.jpg"></span>
+
+            <span class="fragment"><img class="logo" src="assets/images/logo_drush.png"></span>
+            <span class="fragment"><img class="logo config" src="assets/images/config.png"></span>
+
+            <span class="fragment">
+              <span><img class="logo" src="assets/images/logo_grumphp.png"></span>
+              <span><img class="logo sticky-left" src="assets/images/logo_phplint.png"></span>
+            </span>
+            <span class="fragment"><img class="logo config" src="assets/images/config.png"></span>
+
+
+            <span class="fragment"><img class="logo wider-2" src="assets/images/logo_git.png"></span>
+            <span class="fragment"><img class="logo config" src="assets/images/config.png"></span>
+
+
+            <span class="fragment"><img class="logo wider-2" src="assets/images/logo_composer.png"></span>
+            <span class="fragment"><img class="logo config" src="assets/images/config.png"></span>
+
+            <div>
+              <span class="fragment"><img class="logo wider-8" src="assets/images/logo_apache_web_server.png"></span>
+              <span class="fragment"><img class="logo config" src="assets/images/config.png"></span>
+
+              <span class="fragment"><img class="logo wider-3" src="assets/images/logo_mariadb_v_blue.svg"></span>
+              <span class="fragment"><img class="logo config" src="assets/images/config.png"></span>
+
+              <span class="fragment"><img class="logo wider-3" src="assets/images/logo_php.svg"></span>
+
+              <span class="fragment"><img class="logo wider-5" src="assets/images/logo_docker.png"></span>
+              <span class="fragment"><img class="logo config" src="assets/images/config.png"></span>
+
+              <span class="fragment"><img class="logo wider-8" src="assets/images/logo_docker-compose_h.png"></span>
+              <span class="fragment"><img class="logo config" src="assets/images/config.png"></span>
+            </div>
+          </div>
+        </section>
+
+
+
+        <section>
+          <div class="header">
+            <span>Continuar comenzando un proyecto</span>
+          </div>
+
+          <div>
+            <span class="fragment"><img class="logo wider-4" src="assets/images/logo_sass.png"></span>
+            <span class="fragment"><img class="logo config" src="assets/images/config.png"></span>
+
+            <span class="fragment"><img class="logo wider-5" src="assets/images/logo_nodejs.png"></span>
+            <span class="fragment"><img class="logo config" src="assets/images/config.png"></span>
+
+            <span class="fragment"><img class="logo wider-8" src="assets/images/logo_adminer.png"></span>
+            <span class="fragment"><img class="logo config" src="assets/images/config.png"></span>
+          </div>
+
+          <div>
+            <span class="fragment"><img class="logo wider-5" src="assets/images/logo_behat.png"></span>
+            <span class="fragment"><img class="logo config" src="assets/images/config.png"></span>
+
+            <span class="fragment"><img class="logo wider-4" src="assets/images/logo_backstopjs.png"></span>
+            <span class="fragment"><img class="logo config" src="assets/images/config.png"></span>
+
+            <span class="fragment"><img class="logo wider-5" src="assets/images/logo_phpunit.svg"></span>
+            <span class="fragment"><img class="logo config" src="assets/images/config.png"></span>
+
+            <span class="fragment"><img class="logo wider-5" src="assets/images/logo_xdebug.png"></span>
+            <span class="fragment"><img class="logo config" src="assets/images/config.png"></span>
+          </div>
+
+          <div>
+            <span class="fragment"><img class="logo wider-5" src="assets/images/logo_solr.png"></span>
+            <span class="fragment"><img class="logo config" src="assets/images/config.png"></span>
+
+            <span class="fragment"><img class="logo wider-8" src="assets/images/logo_redis.png"></span>
+            <span class="fragment"><img class="logo config" src="assets/images/config.png"></span>
+          </div>
+        </section>
+
+
+
+        <section data-state="sponsor-hidden fit-bg" data-background-image="assets/images/Award_Certificate.jpg">
+        </section>
+
+
+
+        <section>
+          <div class="header">
+            <span>Otras situaciones</span>
+          </div>
+          <ul>
+            <li>Unirse a un proyecto</li>
+            <li>
+              Empezar un nuevo proyecto
+              <ul>
+                <li>Recodar decisiones</li>
+                <li>Recordar cómo hacerlas</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+
+
+        <section>
+          <div class="header">
+            <span>Ejes de problemáticas</span>
+          </div>
+          <ul>
+            <li>Código</li>
+            <li>Infraestructura local</li>
+          </ul>
+        </section>
+
+
+
+        <section data-state="sponsor-hidden" class="section-cover">
+          <div class="header">
+            <span>Pon un <em>boilerplate</em> en tu <strike>vida</strike> proyecto </span>
+            <div class="banda sep"></div>
+          </div>
+        </section>
+
+
+
+        <section>
+          <div class="header">
+            <span>¿Qué es un <em>boilerplate</em> de Drupal?</span>
+          </div>
+          <ul>
+            <li>Código de referencia sobre el que construir</li>
+            <li>Plantilla sobre la que extender</li>
+            <li>Una base de la que partir</li>
+          </ul>
+        </section>
+
+
+
+        <section>
+          <div class="header">
+            <span><em>Boilerplate</em> Drupal: Objetivos</span>
+          </div>
+          <ul>
+            <li>Iniciar proyectos rápidamente</li>
+            <li>Base de código (Drupal y herramientas)</li>
+            <li>Decisiones tećnicas</li>
+            <li>Estandarización</li>
+            <li>Reducción del tiempo de <em>onboarding</em></li>
+            <li>Reducción de estrés</li>
+            <li>Proyectos autocontenidos en el repositorio</li>
+            <li>Herramientas estándar</li>
+          </ul>
+        </section>
+
+
+
+        <section>
+          <section>
+            <div class="header">
+              <span><em>Boilerplate</em> Drupal: ¿Qué ofrece?</span>
+            </div>
+            <ul>
+              <li>Código Drupal y Drush</li>
+              <li>Preconfiguraciones</li>
+              <li>Entorno de ejecución sobre Docker4Drupal</li>
+              <li>Testing: Behat, BackstopJS, PHPUnit</li>
+              <li>Wiki de documentación con MkDocs</li>
+              <li>Análisis de código</li>
+              <li>Fácil manejo (ocultar sintáxis de gestión)</li>
+              <li>Instalación con un comando</li>
+              <li>...</li>
+            </ul>
+          </section>
+
+
+
+          <section>
+            <div class="header">
+              <span>Demo: creación inicial</span>
+            </div>
+            <pre>
+composer create-project --ignore-platform-reqs
+  metadrop/drupal-boilerplate mi-proyecto</pre>
+          </section>
+
+
+
+          <section>
+            <div class="header">
+              <span>Demo: creación inicial (vídeo)</span>
+            </div>
+            <img src="assets/images/video01-crear_proyecto.gif">
+          </section>
+        </section>
+
+
+
+        <section data-state="sponsor-hidden" class="section-cover">
+          <div class="header">
+            <span><em>Boilerplate</em> en detalle</span>
+            <div class="banda sep"></div>
+          </div>
+        </section>
+
+
+
+        <section>
+          <div class="header">
+            <span>Dónde obtenerlo</span>
+          </div>
+          <ul>
+            <li><a href="https://github.com/Metadrop/drupal-boilerplate">https://github.com/Metadrop/drupal-boilerplate</a></li>
+            <li>Software Libre</li>
+            <li>Contribuciones bienvenidas</li>
+            <li>Estable pero en desarrollo</li>
+          </ul>
+        </section>
+
+
+
+        <section>
+          <div class="header">
+            <span>Requisitos</span>
+          </div>
+          <ul>
+            <li>PHP (para creación inicial)</li>
+            <li>Composer (para creación inicial)</li>
+            <li>Drush Launcher (recomendado por comodidad)</li>
+            <li>Docker</li>
+            <li>Docker Compose</li>
+            <li>Linux (en teoría funciona en otros SO)</li>
+          </ul>
+        </section>
+
+
+
+        <section>
+          <div class="header">
+            <span>Infraestructura Docker</span>
+          </div>
+          <ul>
+            <li>Basado en Docker4Drupal</li>
+            <li>Apache, NGINX, MariaDB, PostgreSQL, PHP…</li>
+            <li>Varias versiones disponibles cambiando <span class="small inline-code">.env</span></li>
+            <li>Redis, Memcached, NodeJS, Solr, Elasticsearch…</li>
+            <li>Configuración estándar de Docker Compose</li>
+          </ul>
+        </section>
+
+
+
+        <section>
+          <div class="header">
+            <span>Subtheme de Radix (opcional)</span>
+          </div>
+          <ul>
+            <li><em>Theme</em> base con Bootstrap (4 ó 5)</li>
+            <li>Generación automática de subtheme para el proyecto</li>
+            <li>Sass, ES6 y BrowerSync</li>
+            <li>Módulo Components</li>
+            <li>Opcional, puede no crearse</li>
+          </ul>
+        </section>
+
+
+
+        <section>
+          <div class="header">
+            <span>Estructura de directorios</span>
+          </div>
+          <img src="assets/images/img01-folders.png">
+        </section>
+
+
+
+        <section>
+          <div class="header">
+            <span>Drush</span>
+          </div>
+          <div>
+            <div class="row">
+              <div class="column">
+                <ul>
+                  <li>Aliases de entornos</li>
+                  <li>drush.yml</li>
+                  <li>drush.yml local</li>
+                  <li>Ejemplo fichero Policy</li>
+                  <li>No sobreescribir BD de producción</li>
+                </ul>
+              </div>
+              <div class="column">
+                <img class="sider" src="assets/images/img03-drush-config.png">
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+        <section>
+          <section>
+            <div class="header">
+              <span>Testing: Behat</span>
+            </div>
+            <div>
+              <div class="row">
+                <div class="column">
+                  <ul>
+                    <li>Desarrollo orientado a comportamiento</li>
+                    <li>Tests de aceptación</li>
+                    <li>Lenguaje natural (para no técnicos)</li>
+                    <li>Usa un navegador real o ligero</li>
+                    <li>Contextos adicionales (Nuvole, Metadrop)</li>
+                  </ul>
+                </div>
+                <div class="column">
+                  <img class="sider" src="assets/images/img06-tests-config.png">
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <div class="header">
+              <span>Demo: ejecución</span>
+            </div>
+            <pre>make behat</pre>
+          </section>
+
+          <section>
+            <div class="header">
+              <span>Demo: ejecución Behat (vídeo)</span>
+            </div>
+            <img src="assets/images/video02-behat.gif">
+          </section>
+        </section>
+
+
+
+        <section>
+          <section>
+            <div class="header">
+              <span>Testing: BackstopJS</span>
+            </div>
+            <div>
+              <div class="row">
+                <div class="column">
+                  <ul>
+                    <li>Tests de regresión visual</li>
+                    <li>Se crean referencias contra las que se testea</li>
+                    <li>Se puede definir grado de similitud o ignorar zonas</li>
+                    <li>Resultados visuales</li>
+
+
+                  </ul>
+                </div>
+                <div class="column">
+                  <img class="sider" src="assets/images/img05-reports-config.png">
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="header">
+              <span>Demo: ejecución</span>
+            </div>
+            <pre>
+make backstopjs-reference
+make backstopjs-test
+</pre>
+            <span class="xxsmall"><em>(Realizar algún cambio)</em></span>
+            <pre>
+make backstopjs-test
+</pre>
+          </section>
+
+
+
+          <section>
+            <div class="header">
+              <span>Demo: ejecución BackstopJS (vídeo)</span>
+            </div>
+            <img src="assets/images/video03-backstopjs.gif">
+          </section>
+        </section>
+
+
+
+        <section>
+          <section>
+            <div class="header">
+              <span>Testing: PHPUnit</span>
+            </div>
+            <ul>
+              <li>Integrados con Drupal core</li>
+              <li>UnitTestCase: test unitarios</li>
+              <li>KernelTestBase: tests con Drupal casi levantado</li>
+              <li>BrowserTestBase: tests de navegador</li>
+              <li>WebDriverTestBase: tests de navegador con JS</li>
+            </ul>
+          </section>
+
+          <section>
+            <div class="header">
+              <span>Demo: ejecución</span>
+            </div>
+<span class="xxsmall"><em>(Tests unitarios del móddulo Redirect)</em></span>
+            <pre>
+make test web/modules/contrib/redirect/tests/src/Unit
+</pre>
+<span class="xxsmall"><em>(Todos los tests del móddulo Redirect, más lento)</em></span>
+            <pre>
+make test web/modules/contrib/redirect/tests
+</pre>
+          </section>
+
+          <section>
+            <div class="header">
+              <span>Demo: ejecución PHPUnit (vídeo)</span>
+            </div>
+            <img src="assets/images/video04-phpunit.gif">
+          </section>
+        </section>
+
+
+
+        <section>
+          <section>
+            <div class="header">
+              <span>Depuración: XDebug</span>
+            </div>
+            <ul>
+              <li>Depuración paso a paso</li>
+              <li>Examinar variables</li>
+              <li>Seguir flujo de ejecución</li>
+              <li>Imprescindible si programas</li>
+            </ul>
+          </section>
+
+          <section>
+            <div class="header">
+              <span>Demo</span>
+            </div>
+            <pre>
+cp docker-compose.xdebug.override.yml.dist
+  docker-compose.xdebug.override.yml
+
+vi docker-compose.xdebug.override.yml
+</pre>
+<span class="xxsmall"><em>(Configurar según IDE)</em></span>
+            <pre>
+make xdebug
+make xdebug-disable
+</pre>
+          </section>
+
+          <section>
+            <div class="header">
+              <span>Demo: Usar XDebug (vídeo)</span>
+            </div>
+            <img src="assets/images/video06-xdebug.gif">
+          </section>
+        </section>
+
+
+
+        <section>
+          <div class="header">
+            <span>Análisis de código: commit Git</span>
+          </div>
+          <img width="25%" class="sider" src="assets/images/logo_grumphp.png">
+          <ul>
+            <li>Git <em>hook</em> al comitear llama a GrumPHP</li>
+            <li>Formato mensaje de commit</li>
+            <li>PHPlint: Sintáxis PHP</li>
+            <li>YAMLint: Sintáxis YAML</li>
+            <li>Errores en ficheros Composer</li>
+            <li>JSON Lint: Sintáxis JSON</li>
+            <li>DrupalCheck: diversas comprobaciones</li>
+            <li>PHPCD: Detector de copia/pega</li>
+            <li>CodeSniffer: <em>Coding standards</em> y buenas prácticas</li>
+          </ul>
+        </section>
+
+
+
+        <section>
+          <div class="header">
+            <span>Análisis de código: manual</span>
+          </div>
+          <ul>
+            <li>Lanzado manualmente</li>
+            <li>Ideal para tendencias en testing automático</li>
+            <li>CodeSniffer: <em>Coding standards</em> y buenas prácticas</li>
+            <li>PHPMD: Código maloliente</li>
+            <li>PHPCD: Detector de copia/pega</li>
+          </ul>
+        </section>
+
+
+
+        <section>
+          <div class="header">
+            <span>Documentación: MkDocs</span>
+          </div>
+          <ul>
+            <li>Wiki para documentar temas técnicos</li>
+            <li>Ej: Architecture decision record (ADR)</li>
+            <li>Se intenta que el proyecto esté autocontenido</li>
+          </ul>
+          <img src="assets/images/img07-mkdocs.png" class="">
+        </section>
+
+
+
+        <section>
+          <div class="header">
+            <span>Otras herramientas</span>
+          </div>
+          <ul>
+            <li>MailHog: capturador de correos salientes</li>
+            <li>Adminer: interfaz gráfico para la BD</li>
+            <li>Portainer: información sobre contenedores</li>
+            <li>...</li>
+          </ul>
+          <img src="assets/images/img08-mailhog.png" class="">
+        </section>
+
+
+
+        <section>
+          <div class="header">
+            <span>Makefiles</span>
+          </div>
+          <ul>
+            <li><pre>make info</pre></li>
+            <li><pre>make test</pre></li>
+            <li><pre>make behat</pre></li>
+            <li><pre>make frontend</pre></li>
+            <li><pre>make setup</pre></li>
+            <li><pre>make setup-from-config</pre></li>
+            <li><pre>make shell</pre></li>
+            <li><pre>make drush</pre></li>
+            <li><pre>make logs</pre></li>
+          </ul>
+        </section>
+
+
+
+        <section>
+          <div class="header">
+            <span>Scripthor</span>
+          </div>
+          <ul>
+            <li>Pequeña colección de scripts de utilidades</li>
+            <li>Backup (BD, código y ficheros de contenido)</li>
+            <li>Construir recursos frontend (Ej: Sass)</li>
+            <li>Actualización automática de paquetes Composer</li>
+            <li>Recarga entorno local con entorno de referencia</li>
+          </ul>
+          <aside class="notes">
+            <p>
+            </p>
+            <strong></strong>
+          </aside>
+        </section>
+
+
+
+        <section data-state="sponsor-hidden" class="section-cover">
+          <div class="header">
+            <span>Otros usos</span>
+            <div class="banda sep"></div>
+          </div>
+        </section>
+
+
+
+        <section>
+          <div class="header">
+            <span>Entornos locales como churros</span>
+          </div>
+          <ul>
+            <li>Probar un módulo o theme, rápidamente</li>
+            <li>Montar otro entorno de un proyecto, rápidamente</li>
+            <li>Contribuir al core o una extensión, rápidamente</li>
+            <li>¿Estilo Simplytest.me en local?</li>
+          </ul>
+        </section>
+
+
+
+        <section>
+          <div class="header">
+            <span>Estandarizar flujos de trabajo</span>
+          </div>
+          <ul>
+            <li><em>make setup</em> o <em>make setup-from-config</em> y empezar</li>
+            <li>Estandarizar decisiones</li>
+            <li>Estandarizar integración con CI</li>
+            <li>Estandarizar X</li>
+          </ul>
+        </section>
+
+
+
+        <section>
+          <div class="header">
+            <span>Integración contínua</span>
+          </div>
+          <ul>
+            <li>Usable en CI si acepta Docker Compose</li>
+            <li>Mismo entorno que en desarrollo local</li>
+            <li>(que debería ser igual o muy parecido a Prod)</li>
+            <li>¡Actualizaciones cuasi-automáticas!</li>
+          </ul>
+        </section>
+
+
+
+        <section>
+          <div class="header">
+            <span><em>Boilerplotear</em> un proyecto</span>
+          </div>
+          <ul>
+            <li>Aplicarlo a un proyecto existente</li>
+            <li>Crear <em>boilerplate</em> e integrar código</li>
+            <li>Integrar composer.json</li>
+            <li>Tiempo: unas pocas horas</li>
+          </ul>
+        </section>
+
+
+
+        <section data-state="sponsor-hidden" class="section-cover">
+          <div class="header">
+            <span>¿Esto no es como...?</span>
+            <div class="banda sep"></div>
+          </div>
+        </section>
+
+
+
+        <section>
+          <div class="header">
+            <span>DDEV, Docksal, Lando...</span>
+          </div>
+          <ul>
+            <li>Sí y no</li>
+            <li>Se centran en el eje de infraestructura</li>
+            <li>Potentes y guiados</li>
+            <li>Ciertos límites</li>
+            <li>Hay solapamiento (sobre todo en Docker4Drupal)</li>
+            <li>Futuro: compatible con DDEV, Lando, Docksal</li>
+            <li>Futuro: más decisiones técnicas, más opciones, ... </li>
+          </ul>
+        </section>
+
+
+
+        <section data-state="sponsor-hidden"  class="section-cover">
+          <div class="header">
+            <span>¿Demo?</span>
+            <div class="banda sep"></div>
+          </div>
+        </section>
+
+
+
+        <section data-state="sponsor-hidden"  class="section-cover">
+          <div class="header">
+            <span>Preguntas</span>
+            <div class="banda sep"></div>
+          </div>
+        </section>
+
+
+
+        <section data-state="sponsor-hidden fit-bg" data-background-image="assets/images/img-patrocinadores_zrgz.png">
+        </section>
+
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+        showNotes: false,
+        slideNumber: false,
+
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+      });
+    </script>
+    <!--
+    https://www.pngwing.com/en/free-png-pgfos/
+    -->
+  </body>
+</html>
