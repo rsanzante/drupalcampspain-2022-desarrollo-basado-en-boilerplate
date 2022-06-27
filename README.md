@@ -1,8 +1,6 @@
 
-
-This presentation can be accessed on the following URL: [https://rsanzante.github.io/drupalcampspain-2022-desarrollo-basado-en-boilerplate/](https://rsanzante.github.io/drupalcampspain-2022-desarrollo-basado-en-boilerplate/)
-
+Esta presentación es accesible en la siguiente URL: [https://rsanzante.github.io/drupalcampspain-2022-desarrollo-basado-en-boilerplate/](https://rsanzante.github.io/drupalcampspain-2022-desarrollo-basado-en-boilerplate/)
 
 
-I would like to thank [Reveal.js](https://revealjs.com) for this great tool to create presentations using HTML, CSS and JS.
+Quisiera dar a las gracias a [Reveal.js](https://revealjs.com) por ofrecer esta gran herramienta para crear presentaciones basadas en HTML, CSS y JS.
 
